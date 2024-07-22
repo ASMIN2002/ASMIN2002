@@ -1,0 +1,9 @@
+package com.asmin.Associations.One_To_one;
+
+
+public class Main{
+	public static void main(String[] args) {
+		Account account = new Account("s-111", "ASMIN", "savings", 1000);
+		
+	}
+}

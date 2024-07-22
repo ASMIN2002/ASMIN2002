@@ -1,0 +1,13 @@
+package com.asmin.N;
+
+public class Main extends Thread{
+	
+	@Override
+	
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

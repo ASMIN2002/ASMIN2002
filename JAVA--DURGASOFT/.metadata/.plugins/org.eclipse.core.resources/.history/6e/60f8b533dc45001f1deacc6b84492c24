@@ -1,0 +1,11 @@
+package com.asmin.multiThreading;
+
+
+
+public class M1 {
+	public static void main(String[] args) {
+		
+
+	}
+
+}

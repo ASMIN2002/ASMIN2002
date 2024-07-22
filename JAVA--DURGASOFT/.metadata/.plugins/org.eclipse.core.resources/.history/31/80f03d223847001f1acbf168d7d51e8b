@@ -1,0 +1,7 @@
+package com.asmin.One_To_one.sett_dep;
+
+public class Employee {
+	private int eno;
+	private String ename;
+	
+}

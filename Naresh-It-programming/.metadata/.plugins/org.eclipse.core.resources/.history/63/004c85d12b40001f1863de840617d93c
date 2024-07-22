@@ -1,0 +1,9 @@
+package com.asmin.MultiThreadiclass ABCC extends Thread{
+	
+}
+
+public class JoinMethoed extends A{
+public static void main(String[] args) {
+	}
+
+}

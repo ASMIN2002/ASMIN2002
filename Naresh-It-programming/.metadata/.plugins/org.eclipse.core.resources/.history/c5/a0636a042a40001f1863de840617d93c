@@ -1,0 +1,16 @@
+package com.asmin.N;
+
+public class Main extends Thread{
+	
+	@Override
+	public void run() {
+		System.out.println("I am Ready For Interview");
+		for
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

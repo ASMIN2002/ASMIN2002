@@ -1,0 +1,24 @@
+package com.asmin.inheritance;
+
+class One1{
+	public void print_greek() {
+		System.out.println("Greeks");
+	}
+}
+class Two2 extends One1{
+	public void print_for() {
+		System.out.println("for");
+	}
+}
+class Three3 extends Two2{
+	public void print_lastGreek() {
+		System.out.println("");
+	}
+}
+public class I4 {
+	public static void main(String[] args) {
+		
+
+	}
+
+}

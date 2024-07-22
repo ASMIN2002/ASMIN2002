@@ -1,0 +1,15 @@
+package com.asmin.multiThreading;
+
+class MyThread1 extends Thread{
+	public void run() {
+		System.out.println("Thread1 is Running");
+	}
+}
+
+public class M1 {
+	public static void main(String[] args) {
+		
+
+	}
+
+}

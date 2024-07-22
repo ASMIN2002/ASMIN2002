@@ -1,0 +1,18 @@
+package com.asmin.inheritance;
+
+class One{
+	public void print_greek() {
+		System.out.println("Greeks");
+	}
+}
+
+class Two extends One{
+	public void 
+}
+public class I3 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

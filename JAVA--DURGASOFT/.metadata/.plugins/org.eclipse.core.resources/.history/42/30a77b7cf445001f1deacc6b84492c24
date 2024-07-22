@@ -1,0 +1,19 @@
+package com.asmin.methods;
+
+class Tiku{
+	public Tiku(int i) {
+		System.out.println("T-con");
+	}
+	public Tiku(int i,float j,String s) {
+		System.out.println("T-param-con");
+		new Tiku();
+	}
+}
+public class main{
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

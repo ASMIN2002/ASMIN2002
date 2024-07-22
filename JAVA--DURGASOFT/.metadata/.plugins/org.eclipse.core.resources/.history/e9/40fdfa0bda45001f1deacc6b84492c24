@@ -1,0 +1,14 @@
+package com.asmin.inheritance;
+
+class Empoyee{
+	int salary = 60000;
+}
+
+public class I2 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

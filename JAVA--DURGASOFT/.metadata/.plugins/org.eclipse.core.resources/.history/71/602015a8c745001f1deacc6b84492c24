@@ -1,0 +1,14 @@
+package com.asmin.test;
+
+class Base{
+	public void Print() {
+		System.out.println("Base");
+	}
+}
+public class B {
+	public static void main(String[] args) {
+		
+
+	}
+
+}

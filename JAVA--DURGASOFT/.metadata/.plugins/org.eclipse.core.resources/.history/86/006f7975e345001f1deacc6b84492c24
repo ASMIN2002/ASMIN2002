@@ -1,0 +1,16 @@
+package com.asmin.multiThreading;
+
+class CheckingMyDemonThread extends Thread{
+	public void run() {
+		if(Thread.currentThread().isDaemon()) {
+			System.out.println("");
+		}
+	}
+}
+public class M4 {
+	public static void main(String[] args) {
+		
+
+	}
+
+}

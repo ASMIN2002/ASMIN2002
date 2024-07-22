@@ -1,0 +1,26 @@
+package com.asmin.Test;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.classic.Session;
+
+import com.asmin.beans.Employee;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Configuration configuration = new Configuration();
+		configuration.configure();
+		
+		SessionFactory factory = configuration.buildSessionFactory();
+		Session session = factory.openSession();
+		Transaction transaction = session.beginTransaction();
+		Employee employee = new Employee();
+		employee.setEid(111);
+		employee.setEname("ASMIN");
+		
+
+	}
+
+}

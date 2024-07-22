@@ -1,0 +1,14 @@
+package com.asmin.beans;
+
+public class Employee {
+	private int eno;
+	private String ename;
+	private float esal;
+	private String eaddr;
+	
+	public void setEno(int eno) {
+		this.eno = eno;
+	}
+	public int getEno
+
+}

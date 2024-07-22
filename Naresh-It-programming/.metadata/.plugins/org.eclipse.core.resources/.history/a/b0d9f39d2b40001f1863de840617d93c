@@ -1,0 +1,11 @@
+package com.asmin.MultiThreading;
+
+
+public class JoinMethoed extends Thread{
+	
+public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.asmin.N&apos; to &apos;com.asmin.MultiThreading&apos;&#x0D;&#x0A;- Original project: &apos;Naresh_It_JAVA_Programs&apos;&#x0D;&#x0A;- Original element: &apos;Naresh_It_JAVA_Programs/src/com.asmin.N&apos;&#x0D;&#x0A;- Renamed element: &apos;Naresh_It_JAVA_Programs/src/com.asmin.MultiThreading&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.asmin.N&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.asmin.N" name="com.asmin.MultiThreading" qualified="false" references="true" stamp="1720773744868" textual="false" version="1.0"/>
+</session>

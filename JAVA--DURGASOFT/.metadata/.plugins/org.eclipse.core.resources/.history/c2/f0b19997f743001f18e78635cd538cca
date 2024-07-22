@@ -1,0 +1,13 @@
+package com.asmin.JavaFeatures;
+
+interface I11{
+	void m1()
+}
+public class Lamda_Expression {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

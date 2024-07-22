@@ -1,0 +1,40 @@
+package com.asmin.main;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+public class Main extends HttpServlet {
+
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		resp.setContentType("text/html");
+		PrintWriter out = resp.getWriter();
+		
+		out.println("<html>");
+		out.println("<body style='background-color: rgb(168, 245, 219);'>");
+		out.println("<h1 style='text-align: center;align-items: center;'>");
+		out.println("<marquee direction='left'>");
+		out.println("LET'S  STUDY  WITH  ASMIN");
+		out.println("</marquee></h1>");
+		out.println("<hr style='border: 2px solid rgb(0, 0, 0);'>");
+		out.println("<div style='height: 150px; width: 1520px;margin: 50px 0px;'>");
+		out.println("<h2 style='color: green;margin: auto;padding: auto;'>");
+		out.println("<a href='https://google.com' style='text-decoration: none;margin: 20px 20px;float: left; border: 3px solid blue;'>");
+		out.println("REGISTER HERE</a></h2>");
+		out.println("<h2 style='color: green;margin: auto;padding: auto;'>");
+		out.println("<a href='https://google.com' style='text-decoration: none;margin: 20px 20px;float: right; border: 3px solid blue;'>");
+		out.println("LOGIN HERE</a></h2></div>");
+		out.println("<div><h2 style='border: 2px solid black;\'>");
+		
+		out.println("</body>");
+		out.println("</html>");
+		System.out.println("SUCCESS");
+		
+	}
+}

@@ -1,0 +1,9 @@
+package com.asmin.beans;
+
+public class Employee {
+
+	private int eno;
+	private String ename;
+	privatr float esa
+
+}

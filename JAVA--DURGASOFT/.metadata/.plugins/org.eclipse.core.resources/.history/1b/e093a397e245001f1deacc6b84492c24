@@ -1,0 +1,10 @@
+package com.asmin.multiThreadingclass MyThread extends Thread{
+	
+}
+
+public class M3 {
+	public static void main(String[] args) {
+		
+	}
+
+}

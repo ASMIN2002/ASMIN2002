@@ -1,0 +1,17 @@
+package com.asmin.multiThreading;
+
+class Shot extends Thread{
+	public void show() {
+		for() {
+			
+		}
+	}
+}
+
+public class M2 {
+	public static void main(String[] args) {
+		
+
+	}
+
+}

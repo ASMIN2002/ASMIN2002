@@ -1,0 +1,12 @@
+package com.asmin.methods;
+
+class M1{
+	
+}
+public class Method1 {
+	public static void main(String[] args) {
+		
+
+	}
+
+}

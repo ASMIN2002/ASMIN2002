@@ -1,0 +1,16 @@
+package com.asmin.JavaFeatures;
+
+
+interface I10{
+	void m1();
+}
+
+class Class10 implements I10{
+	
+}
+
+public class Functional_Interface {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,11 @@
+package com.asmin.main.controller;
+
+import java.util.Scanner;
+
+public class Controller {
+	Scanner scanner = new Scanner(System.in);
+	
+	public Controller() {
+		sys
+	}
+}

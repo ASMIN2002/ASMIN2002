@@ -1,0 +1,9 @@
+package com.asmin.Associations.One_To_one;
+
+public class Account{
+	private String accNo;
+	private String accHolderName;
+	private String accType;
+	private long balance;
+	
+}

@@ -1,0 +1,29 @@
+package com.asmin.backend;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+public class MyServlet extends HttpServlet{
+	
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	 PrintWriter out = resp.getWriter();
+	 out.println("<html>");
+	 out.println("<body>");
+	 out.println("<h1 style='text-align:center; align-items: center; color:blue'>");
+	 out.println("ASMIN KULDEEP JENA");
+	 out.println("</h1>");
+	 out.println("<a href='https://google.com'>");
+	 out.println("google here<>");
+	 out.println("<body>");
+	 out.println("<html>");
+	 
+	 System.out.println("SUCCESS");
+	}
+
+}

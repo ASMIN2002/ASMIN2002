@@ -1,0 +1,17 @@
+package com.asmin.inheritance;
+
+class A{
+	public void print_A() {
+		System.out.println("Class A");
+	}
+}
+class B extends A{
+	
+}
+public class I5 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

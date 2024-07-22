@@ -1,0 +1,13 @@
+package com.asmin.multiThreading;
+
+class Shot extends Thread{
+	
+}
+
+public class M2 {
+	public static void main(String[] args) {
+		
+
+	}
+
+}

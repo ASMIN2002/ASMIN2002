@@ -1,0 +1,10 @@
+package com.asmin.Associations;
+
+public class One_To_One {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

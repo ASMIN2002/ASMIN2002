@@ -1,0 +1,45 @@
+package com.asmin.test;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.Scanner;
+
+public class Test {
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		System.out.print("1. Register   : ");
+		
+		System.out.print("2. LOGIN      : ");
+		String name = s.next();
+		System.out.print("SALARY   : ");
+		float sal = s.nextFloat();
+		System.out.print("AGGRESS  : ");
+		String addr = s.next();
+				
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/employee","root","Asmin@2002");
+			PreparedStatement preparedStatement = connection.prepareStatement("insert into emp1 values(?,?,?,?)");
+			preparedStatement.setInt(1, no);
+			preparedStatement.setString(2, name);
+			preparedStatement.setFloat(3, sal);
+			preparedStatement.setString(4, addr);
+			
+			try {
+				int count = preparedStatement.executeUpdate();
+				if(count > 0) {
+					System.out.println("INSERTION SUccessfully");
+				}else {
+					System.out.println("Insertion Failed");
+				}
+			}catch(Exception e) {
+				System.out.println("ALREADY EXISTED");
+			}
+			
+		}catch(Exception e) {
+			System.out.println("EXCEPTION IS HERE");
+		}
+	}
+}

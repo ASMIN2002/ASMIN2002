@@ -1,0 +1,9 @@
+package com.asmin.inheritance;
+
+public class I5 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

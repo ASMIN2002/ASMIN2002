@@ -1,0 +1,10 @@
+package com.asmin.MultiThreading;
+class AB extends Thread{
+	
+}
+
+public class JoinMethoed extends A{
+public static void main(String[] args) {
+	}
+
+}

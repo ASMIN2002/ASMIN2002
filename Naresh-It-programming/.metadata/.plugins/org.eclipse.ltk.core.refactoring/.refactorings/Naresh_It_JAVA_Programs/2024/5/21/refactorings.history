@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.asminH&apos; to &apos;com.asmin.H&apos;&#x0D;&#x0A;- Original project: &apos;Naresh_It_JAVA_Programs&apos;&#x0D;&#x0A;- Original element: &apos;Naresh_It_JAVA_Programs/src/com.asminH&apos;&#x0D;&#x0A;- Renamed element: &apos;Naresh_It_JAVA_Programs/src/com.asmin.H&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.asminH&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.asminH" name="com.asmin.H" qualified="false" references="true" stamp="1716360735444" textual="false" version="1.0"/>
+</session>

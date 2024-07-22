@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean class="com.asmin.beans.Address" id="addr">
+		<constructor-arg value="345"/>
+		<constructor-arg value="PATNA"/>
+		<constructor-arg value="567865"/>
+	</bean>
+
+	<bean class="com.asmin.beans.Employee" id="ed">
+		<constructor-arg value="111"/>
+		<constructor-arg value="MEGHNA"/>
+		<constructor-arg ref="addr"/>
+	
+	</bean>
+
+	
+</beans>

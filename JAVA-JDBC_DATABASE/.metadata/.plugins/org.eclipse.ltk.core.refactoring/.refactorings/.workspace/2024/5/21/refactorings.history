@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;JDBC_METADATA&apos;" deleteContents="true" description="Delete resource &apos;JDBC_METADATA&apos;" element1="/JDBC_METADATA" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1716660219809"/>&#x0A;<refactoring comment="Rename resource &apos;JDBC_METADATA&apos; to &apos;JDBC_DATABASE_METADATA&apos;" description="Rename resource &apos;JDBC_METADATA&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/JDBC_METADATA" name="JDBC_DATABASE_METADATA" stamp="1716662420747" updateReferences="true"/>
+</session>

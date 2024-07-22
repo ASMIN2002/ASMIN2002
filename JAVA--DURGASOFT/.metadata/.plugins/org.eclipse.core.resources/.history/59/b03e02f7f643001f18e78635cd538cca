@@ -1,0 +1,26 @@
+package com.asmin.JavaFeatures;
+
+@FunctionalInterface
+interface I10{
+	void m1();
+	static void m2() {
+		System.out.println("M2-I");
+	}
+}
+
+class Class10 implements I10{
+	public void m1() {
+		System.out.println("M1-Class10");
+	}
+//	public void m2() {
+//		System.out.println("M2-Class10");
+//	}
+}
+
+public class Functional_Interface {
+	public static void main(String[] args) {
+		I10 i = new Class10();
+		i.m1();
+		// i.m2();
+	}
+}

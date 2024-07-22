@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Load-On-StartUp&apos;" deleteContents="true" description="Delete resource &apos;Load-On-StartUp&apos;" element1="/Load-On-StartUp" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1718011350382"/>
+</session>

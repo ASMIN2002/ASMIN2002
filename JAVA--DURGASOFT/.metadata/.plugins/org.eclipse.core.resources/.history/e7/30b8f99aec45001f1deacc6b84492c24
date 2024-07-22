@@ -1,0 +1,22 @@
+package com.asmin.methods;
+
+class Test{
+	public Test() {
+		System.out.println("Test-con");
+	}
+	public int m1() {
+		System.out.println("M1-Method");
+		return 10;
+	}
+	public String m2() {
+		return "CHINU";
+	}
+}
+public class Method3 {
+	public static void main(String[] args) {
+		Test t = new Test();
+		//t.m1();
+		System.out.println(t.m1()+" "+new Test()+"\n "+new Test().m2());
+
+	}
+}

@@ -1,0 +1,17 @@
+package com.asmin.Associations.One_To_one;
+
+public class Account{
+	private String accNo;
+	private String accHolderName;
+	private String accType;
+	private long balance
+	public Account(String accNo, String accHolderName, String accType, long balance) {
+	
+		this.accNo = accNo;
+		this.accHolderName = accHolderName;
+		this.accType = accType;
+		this.balance = balance;
+	}
+	 
+	
+}

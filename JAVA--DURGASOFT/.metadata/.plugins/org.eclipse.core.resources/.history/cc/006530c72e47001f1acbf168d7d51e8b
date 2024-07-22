@@ -1,0 +1,12 @@
+package com.asmin.Associations.One_To_one;
+
+public class Employee {
+	
+	private int eno;
+	private String ename;
+	private float esal;
+	private String eaddr;
+	privatre 
+	
+
+}

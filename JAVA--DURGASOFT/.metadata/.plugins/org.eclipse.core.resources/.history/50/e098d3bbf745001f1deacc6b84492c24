@@ -1,0 +1,43 @@
+package com.asmin.methods;
+
+class Babu{
+	public Babu() {
+		System.out.println("B-con");
+		m3(20.0);
+	}
+	public Babu(int j,int k) {
+		System.out.println("B-param-con");
+	}
+	public void m1(int i) {
+		System.out.println(i);
+		new Babu();
+	}
+	public int m2(int k) {
+		System.out.println(k);
+		System.out.println("M2-method");
+		m1(50);
+		return k;
+	}
+	public int m3(float k) {
+		m2(80);
+		System.out.println("m3-Method");
+		return 40;
+	}
+}
+class B extends Babu{
+	public B() {
+		super(20,30);
+		System.out.println("con-b");
+	}
+	public B(int k) {
+		super();
+		System.out.println("Connnnnn-B");
+	}
+}
+public class Method6 {
+	public static void main(String[] args) {
+		
+
+	}
+
+}

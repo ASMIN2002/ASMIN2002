@@ -1,0 +1,14 @@
+package com.asmin.methods;
+
+public class Star {
+	public static void main(String[] args) {
+		for(inr i =0;i<10;i++) {
+			for() {
+				
+			}
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.asmin.multiThreading;
+
+class MyThread extends Thread{
+	
+}
+
+public class M1 {
+	public static void main(String[] args) {
+		
+
+	}
+
+}

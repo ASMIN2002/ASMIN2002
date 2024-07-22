@@ -1,0 +1,37 @@
+package com.asmin.methods;
+
+class Tiku{
+	public Tiku(int i) {
+		System.out.println("T-con");
+	}
+	public Tiku(int i,float j,String s) {
+		System.out.println("T-param-con");
+		System.out.println(i+" "+j+" "+s);
+		new Tiku(30);
+	}
+	public void m1() {
+		new Tiku(10,20,"sonu");
+		System.out.println("M1-method");
+	}
+	public int m2(int k,int l){
+		m1();
+		System.out.println("M2-method");
+		return 20;
+	}
+	public int m3(int p) {
+		System.out.println("M3-method");
+		return p;
+	}
+	public void m4() {
+		m3(40);
+		System.out.println("M4-method");
+	}
+}
+public class main{
+	public static void main(String[] args) {
+		System.out.println("hii");
+		Tiku t = new Tiku(20);
+		t.m4();
+		System.out.println("Byye");
+	}
+}

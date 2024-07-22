@@ -1,0 +1,25 @@
+package com.asmin.test;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.Scanner;
+
+public class Test {
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		System.out.print("1. Register   : \t\t");
+		System.out.print("2. LOGIN      : ");
+		int choice = s.nextInt();
+		switch(choice) {
+		case 1:
+			System.out.println("ONE");
+			break;
+		case 2:
+			System.out.println("TWO");
+			break;
+		}
+		
+	}
+}
