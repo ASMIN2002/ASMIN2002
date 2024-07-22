@@ -1,0 +1,21 @@
+package com.asmin.MANY_TO_ONE_SETTER_METHOD_DEPENDENCY;
+
+public class Branch {
+		private String branchId;
+		private String branchName;
+		public String getBranchId() {
+			return branchId;
+		}
+		public void setBranchId(String branchId) {
+			this.branchId = branchId;
+		}
+		public String getBranchName() {
+			return branchName;
+		}
+		public void setBranchName(String branchName) {
+			this.branchName = branchName;
+		}
+		
+		
+}
+

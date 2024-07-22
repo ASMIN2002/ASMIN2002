@@ -1,0 +1,12 @@
+package com.durgasoft;
+
+public class Try {
+
+	public static void main(String[] args) {
+		do {
+				System.out.println("Tesy");
+		}while();
+
+	}
+
+}

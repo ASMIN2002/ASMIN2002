@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="
+   http://www.springframework.org/schema/context"
+   xmlns:p="http://www.springframework.org/schema/p"
+   xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context.xsd">
+   
+
+	<bean name="emp1" class="com.springcore.collection.Emp">
+		<property name="ename" value="ASMIN" />
+		<property name="phn">
+				<list>
+						<value>893739739</value>
+						<value>28375798798</value>
+						<value>237634577383</value>
+						
+				</list>
+		</property>
+		
+		<property name="addr">
+				<set>
+						<value>hyd</value>
+						<value>BNGL</value>
+						<value>ODISHA</value>
+				</set>
+		</property>
+		
+		<property name="courses">
+				<map>
+						<entry key="JAVA" value="2months"/>
+						<entry key="PYTHON" value="4months"/>
+						<entry key="HTML"  value="3months"/>
+						
+				</map>
+		</property>
+	
+	</bean>
+</beans>
